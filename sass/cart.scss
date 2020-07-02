@@ -1,0 +1,190 @@
+.container{
+    width: 1140px!important;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 100px;
+    min-height: 400px;
+    .cart-heading{
+        padding-bottom: 9px;
+        margin: 40px 0 20px;
+        border-bottom: 1px solid #eee;
+        h1{
+            font-size: 2rem;
+            font-weight:normal;
+            small{
+                font-size: 65%;
+            }
+        }
+    }
+    .warning{
+        color: #8a6d3b;
+        background-color: #fcf8e3;
+        border-color: #faebcc;
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        a{
+            background: #ed1c24;
+            border: #ed1c24; 
+            padding: 1px 5px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 1px;
+            color: #FFF;
+        }
+    }
+    .cart-content{
+        line-height: 40px;
+        background-color: #efefef;
+        user-select: none;
+        table{
+            text-align: center;
+            width: 100%;
+            th{
+                background: #efefef;
+                height: 30px;
+                font-weight: normal;
+            }
+            td{
+                padding: 10px;
+                color: #444;
+                vertical-align: middle;
+            }
+            tbody tr{
+                background: #fffeec;
+            }
+            .checkbox{
+                width: 60px;
+            }
+            .check-all{
+                vertical-align: middle;
+            }
+            .goods{
+                width: 320px;
+                span{
+                    width: 180px;
+                    margin-top: 20px;
+                    text-align: left;
+                    float: left;
+                }
+                img{
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 10px;
+                    float: left;
+                }
+                h4{
+                    font-weight: normal;
+                    font-size: 12px;
+                    float: left;
+                }
+            }
+            .price{
+                width: 130px;
+            }
+            .count{
+                width: 120px;
+                .reduce{
+                    float: left;
+                    position: relative;
+                    z-index: 0;
+                    height: 23px;
+                    width: 17px;
+                    border: 1px solid #e5e5e5;
+                    background: #f0f0f0;
+                    text-align: center;
+                    line-height: 23px;
+                    color: #444;
+                    cursor: pointer;
+                }
+                .add{
+                    float: left;
+                    margin-right: -1px;
+                    position: relative;
+                    z-index: 0;
+                    height: 23px;
+                    width: 17px;
+                    border: 1px solid #e5e5e5;
+                    background: #f0f0f0;
+                    text-align: center;
+                    line-height: 23px;
+                    color: #444;
+                    cursor: pointer;
+                }
+                input{
+                    float: left;
+                    margin-right: -1px;
+                    position: relative;
+                    z-index: 0;
+                    width: 50px;
+                    height: 25px;
+                    line-height: 15px;
+                    border: 1px solid #aaa;
+                    color: #343434;
+                    text-align: center;
+                    padding: 4px 0;
+                    background-color: #fff;
+                    z-index: 2;
+                }
+            }
+            .subtotal{
+                width: 150px;
+                color: red;
+                font-weight: bold;
+            }
+            .operation{
+                cursor: pointer;
+            }
+        } 
+    }
+    .foot{
+        margin-top: 0px;
+        color: #666;
+        height: 48px;
+        border-top: 0;
+        background-color: #eaeaea;
+        position: relative;
+        z-index: 8;
+        div{
+            line-height: 48px;
+            height: 48px;
+        }
+        a{
+            line-height: 48px;
+            height: 48px;
+        }
+        .select-all{
+            width: 80px;
+            height: 48px;
+            line-height: 48px;
+            color: #666;
+            text-align: center;
+            float: left;
+        }
+        .delete{
+            padding-left: 10px;
+            float: left;
+        }
+        .closing{
+            width: 103px;
+            text-align: center;
+            color: #666;
+            font-weight: bold;
+            cursor: pointer;
+            float: right;
+        }
+        .total{
+            margin: 0 20px;
+            cursor: pointer;
+            float: right;
+        }
+        .selected{
+            float: right;
+            span{
+                margin: 0 3px;
+                color: red;
+            }
+        }
+    }
+}

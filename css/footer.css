@@ -1,0 +1,133 @@
+.site-footer {
+  background-color: #FFF;
+  height: 530px;
+}
+
+.site-footer .container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  left: 190px;
+}
+
+.site-footer .container .site-footer-top {
+  height: 114px;
+  padding: 40px 0 20px 0;
+}
+
+.site-footer .container .site-footer-top .service {
+  padding: 0;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.site-footer .container .site-footer-top .service li {
+  width: 220px;
+  float: left;
+  position: relative;
+  display: block;
+  padding-left: 35px;
+}
+
+.site-footer .container .site-footer-top .service li .foo-con {
+  float: left;
+  margin: 0 12px 0 0;
+}
+
+.site-footer .container .site-footer-top .service li .foo-title {
+  display: inline-block;
+  color: #b2b2b2;
+}
+
+.site-footer .container .site-footer-top .service li .foo-title h4 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.site-footer .container .site-footer-top .service li .foo-title small {
+  font-size: 85%;
+}
+
+.site-footer .container .site-footer-ad {
+  height: 416px;
+  padding: 50px 0;
+  border-top: 1px solid #eaeaea;
+}
+
+.site-footer .container .site-footer-ad dl {
+  float: left;
+  width: 140px;
+}
+
+.site-footer .container .site-footer-ad dl dt {
+  line-height: 35px;
+  font-weight: 700;
+}
+
+.site-footer .container .site-footer-ad dl dd {
+  line-height: 35px;
+  font-size: 12px;
+  margin-left: 0;
+}
+
+.site-footer .container .site-footer-ad .ad-phone {
+  border-left: 1px solid #eaeaea;
+  width: 250px;
+  height: 125px;
+  float: right;
+  text-align: center;
+}
+
+.site-footer .container .site-footer-ad .ad-phone .hotline {
+  font-size: 14px;
+  color: #6f6c71;
+  font-weight: 600;
+}
+
+.site-footer .container .site-footer-ad .ad-phone .tele {
+  color: #ff5d59;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.site-footer .container .site-footer-ad .ad-phone .Customer {
+  border: 1px solid #ff5d59;
+  padding: 5px 10px;
+  color: #ff5d59;
+}
+
+.for-footer {
+  background: #313131;
+  height: 100px;
+  line-height: 100px;
+}
+
+.for-footer .for-logo {
+  float: left;
+}
+
+.for-footer .for-link {
+  float: right;
+  color: #666;
+  font-size: 12px;
+}
+
+.for-footer .for-link p {
+  display: inline;
+  margin: 0 0 10px;
+}
+
+.for-footer .for-link span {
+  margin-right: 5px;
+}
+
+.for-footer .for-link a {
+  color: #666;
+}
+
+.for-theme {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 10px 0;
+}

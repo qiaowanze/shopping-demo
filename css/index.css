@@ -1,0 +1,456 @@
+.banner {
+  max-height: 790px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.banner .inner-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-height: 700px;
+  height: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.banner .container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  left: 190px;
+}
+
+.banner .list-warper {
+  width: 234px;
+  position: relative;
+  z-index: 2;
+  height: 500px;
+}
+
+.banner .list-warper .site-list {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  border: 0;
+  color: #fff;
+  margin: 0;
+  padding: 25px 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner .list-warper .site-list a {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+}
+
+.banner .list-warper .site-list a .right-menu {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  line-height: 16px;
+  font-style: normal;
+}
+
+.banner .list-warper .site-list a .right-menu::before {
+  content: "\FF1E";
+}
+
+.banner .list-warper .site-list .list-children {
+  display: none;
+  position: absolute;
+  left: 234px;
+  top: 0;
+  z-index: 25;
+  max-width: 906px;
+  height: 500px;
+  border: 1px solid #e0e0e0;
+  border-left: 0;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+}
+
+.banner .list-warper .site-list .list-children .children-warper {
+  display: flex;
+}
+
+.banner .list-warper .site-list .list-children .children-warper .children {
+  width: 100%;
+  padding-left: 0;
+}
+
+.banner .list-warper .site-list .list-children .children-warper .children li {
+  height: 76px;
+}
+
+.banner .list-warper .site-list .list-children .children-warper .children li a {
+  display: block;
+  padding: 18px 20px;
+  line-height: 40px;
+  color: #333;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+  width: 226.5px;
+}
+
+.sell {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: #fff;
+  height: 670px;
+}
+
+.sell .container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  left: 190px;
+}
+
+.sell .container .sell-ad {
+  margin: 0;
+  height: 180px;
+}
+
+.sell .container .sell-ad .sell-content {
+  padding: 0;
+  width: 270px;
+  height: 180px;
+  float: left;
+  position: relative;
+  margin-left: 20px;
+}
+
+.sell .container .sell-ad .sell-content .sell-content- {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  padding: 0;
+  float: left;
+}
+
+.sell .container .sell-ad .sell-content .sell-content- a {
+  padding: 20px 0 0 0;
+  color: #fff;
+  display: block;
+  width: 90px;
+  height: 90px;
+}
+
+.sell .container .sell-ad .sell-content .sell-content- a img {
+  max-width: 30%;
+}
+
+.sell .container .sell-ad .sell-content .sell-content- a p {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.sell .container .sell-ad .sell-content .sell-content-:nth-child(odd) {
+  background: #f68387;
+}
+
+.sell .container .sell-ad .sell-content .sell-content-:nth-child(even) {
+  background: #f2555b;
+}
+
+.sell .container .sell-ad .sell-content .sell-content-:hover {
+  background: #f84242;
+}
+
+.sell .container .sell-ad .sell-content:first-child {
+  margin-left: 0;
+}
+
+.sell .container .star-goods {
+  margin-top: 30px;
+}
+
+.sell .container .star-goods .star-goods-top {
+  position: relative;
+}
+
+.sell .container .star-goods .star-goods-top h3 {
+  font-size: 22px;
+  line-height: 50px;
+  margin: 0;
+  display: block;
+}
+
+.sell .container .star-goods .star-goods-top h3 img {
+  margin-right: 5px;
+}
+
+.sell .container .star-goods .star-goods-top h3 a {
+  font-weight: normal;
+}
+
+.sell .container .star-goods .star-goods-top h3 a:hover {
+  color: #333;
+}
+
+.sell .container .star-goods .star-goods-top .more {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.sell .container .star-goods .star-goods-top .more .arrow {
+  float: left;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #bcbcbc;
+  text-align: center;
+  line-height: 25px;
+  background: #fff;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.sell .container .star-goods .star-goods-top .more .left {
+  margin-right: 5px;
+}
+
+.sell .container .star-warper {
+  overflow: hidden;
+  height: 340px;
+}
+
+.sell .container .star-warper .star-content {
+  width: 100000px;
+  position: relative;
+}
+
+.sell .container .star-warper .star-content .star-data {
+  background: #f7f7f7;
+  text-align: center;
+  width: 265px;
+  margin-left: 20px;
+  height: 340px;
+  padding: 25px 10px 10px;
+  float: left;
+}
+
+.sell .container .star-warper .star-content .star-data .figure {
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+.sell .container .star-warper .star-content .star-data .figure a {
+  display: block;
+  height: 190px;
+}
+
+.sell .container .star-warper .star-content .star-data .figure a img {
+  max-height: 100%;
+}
+
+.sell .container .star-warper .star-content .star-data h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+  color: #222;
+  font-weight: normal;
+}
+
+.sell .container .star-warper .star-content .star-data .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 30px;
+  color: #989898;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.sell .container .star-warper .star-content .star-data p {
+  color: #ed1c24;
+  line-height: 30px;
+}
+
+.sell .container .star-warper .star-content .star-data p span {
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.sell .container .star-warper .star-content .star-data:nth-child(4n+1) {
+  margin-left: 0 !important;
+}
+
+.category {
+  background: #f7f7f7;
+  height: 1250px;
+}
+
+.category .container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  left: 190px;
+}
+
+.category .same {
+  height: 1170px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.category .same .same-top {
+  position: relative;
+}
+
+.category .same .same-top h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 50px;
+  font-weight: normal;
+}
+
+.category .same .same-top h3 img {
+  margin-right: 5px;
+}
+
+.category .same .same-top .more {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.category .same .same-top .more li {
+  display: inline-block;
+}
+
+.category .same .same-top .more li a {
+  color: #000;
+  margin-right: 4px;
+}
+
+.category .same-img img {
+  width: 1140px;
+  height: 370px;
+}
+
+.category .same-warper {
+  padding: 0;
+}
+
+.category .same-warper .same-content {
+  margin: 0;
+}
+
+.category .same-warper .same-content .same-data {
+  margin-top: 20px;
+  background: #fff;
+  text-align: center;
+  padding: 10px;
+  height: 340px;
+  width: 270px;
+  margin-left: 20px;
+  position: relative;
+  float: left;
+}
+
+.category .same-warper .same-content .same-data .figure {
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+.category .same-warper .same-content .same-data .figure a {
+  display: block;
+  height: 190px;
+}
+
+.category .same-warper .same-content .same-data .figure a img {
+  max-height: 100%;
+}
+
+.category .same-warper .same-content .same-data h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+  color: #222;
+  font-weight: normal;
+}
+
+.category .same-warper .same-content .same-data .title {
+  line-height: 30px;
+  color: #989898;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.category .same-warper .same-content .same-data p {
+  color: #ed1c24;
+  line-height: 30px;
+}
+
+.category .same-warper .same-content .same-data p span {
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.category .same-warper .same-content .same-data:nth-child(4n+1) {
+  margin-left: 0 !important;
+}
+
+.category .same-warper .same-content .same-data:hover {
+  box-shadow: 0px 0px 8px 3px rgba(230, 226, 226, 0.9);
+  transition: box-shadow 0.5s;
+  top: -4px;
+}
+
+.floorNav {
+  position: fixed;
+  left: 89.5px;
+  top: 100px;
+}
+
+.floorNav li {
+  width: 40px;
+  height: 45px;
+  background: #888;
+  text-align: center;
+  border-top: 1px solid #fff;
+  transition: all .5s;
+}
+
+.floorNav li a {
+  display: block;
+  padding: 5px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.floorNav li:hover {
+  background-color: red;
+}

@@ -1,0 +1,416 @@
+.container {
+  width: 1140px !important;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 100px;
+}
+
+.container .product-container {
+  height: 30550px;
+}
+
+.container .product-top {
+  margin-bottom: 30px;
+  padding: 0;
+  background: 0 0 !important;
+}
+
+.container .product-top li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.container .product-2 {
+  margin: 0;
+  width: 100%;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 60px;
+}
+
+.container .product-2 .product-content {
+  border: 1px solid #e6e6e6;
+  height: 43px;
+}
+
+.container .product-2 .product-content ul {
+  width: 665px;
+  border: 0;
+  height: 42px;
+  margin: 0 auto;
+}
+
+.container .product-2 .product-content ul .active {
+  border-bottom: 2px solid #ed1c24;
+}
+
+.container .product-2 .product-content ul li {
+  float: left;
+  margin-bottom: -1px;
+  line-height: 40px;
+}
+
+.container .product-2 .product-content ul li a {
+  border: 0;
+  width: 130px;
+  text-align: center;
+  background: 0 0;
+  display: block;
+}
+
+.container .product-2 .tab-content {
+  border: 1px solid #e6e6e6;
+  border-top: 0;
+}
+
+.container .product-2 .tab-content .img {
+  padding: 15px;
+  overflow: hidden;
+}
+
+.container .product-2 .tab-content .img p {
+  margin: 0 0 10px;
+}
+
+.container .product-1 {
+  margin: 0;
+  height: 540px;
+}
+
+.container .product-details {
+  width: 58.33333333%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container .product-details .detail_img {
+  float: right;
+  width: 540px;
+  height: 540px;
+  border: 1px solid #e3e3e3;
+}
+
+.container .product-details .detail_img a {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 540px;
+  line-height: 540px;
+}
+
+.container .product-buy {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 41%;
+}
+
+.container .product-buy h3 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.container .product-buy .title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.container .product-buy .price-block p {
+  color: #ed1c24;
+  font-size: 24px;
+  float: left;
+}
+
+.container .product-buy .price-block p span {
+  text-decoration: line-through;
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
+.container .product-buy .price-block .pruchase {
+  position: relative;
+  margin-top: 7px;
+  float: right;
+  margin-right: 35px;
+  margin-bottom: 25px;
+}
+
+.container .product-buy .price-block .pruchase span {
+  font-size: 14px;
+}
+
+.container .product-buy .gift {
+  clear: both;
+  background: #f8f8f8;
+  font-size: 12px;
+  padding: 0;
+}
+
+.container .product-buy .gift ul {
+  margin-bottom: 0;
+  padding: 10px;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+.container .product-buy .gift ul span {
+  font-family: sans-serif;
+  background: transparent;
+  border: 1px #f30 solid;
+  color: #f60;
+  font-size: 11px;
+  padding: 1px 2px;
+  font-weight: normal;
+  line-height: normal;
+  border-radius: .25em;
+}
+
+.container .product-buy .addressWrap {
+  padding: 15px 0;
+  margin: 35px 0;
+  font-size: 14px;
+}
+
+.container .product-buy .addressWrap .address-info {
+  position: relative;
+}
+
+.container .product-buy .addressWrap .address-info .address-info-name {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container .product-buy .addressWrap .address-info .address-info-name span {
+  margin-right: 15px;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions {
+  display: inline-block;
+  position: relative;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions span {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions .address {
+  position: absolute;
+  top: 20px;
+  left: -250px;
+  background-color: #fff;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions .address fieldset {
+  width: 450px;
+  border: 1px solid #ccc;
+  user-select: none;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions .address fieldset .titleSel {
+  border-bottom: 2px solid #23B7E5;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions .address fieldset #addr-choice {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions .address fieldset #addr-choice #title-wrap li,
+.container .product-buy .addressWrap .address-info .choose-regions .address fieldset #addr-choice #addr-wrap li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions .address fieldset #addr-choice #title-wrap li {
+  width: 140px;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions .address fieldset #addr-choice #addr-wrap li {
+  width: 83px;
+  height: 30px;
+  border-radius: 4px;
+  line-height: 30px;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.container .product-buy .addressWrap .address-info .choose-regions .address fieldset #addr-choice #addr-wrap li:hover {
+  background-color: #23B7E5;
+}
+
+.container .product-buy .addressWrap .address-info .status {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.container .product-buy .gift-options dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.container .product-buy .gift-options dl dt {
+  font-weight: 700;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.container .product-buy .gift-options dl dd {
+  height: 41px;
+  margin-left: 5px;
+}
+
+.container .product-buy .gift-options dl dd .list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+
+.container .product-buy .gift-options dl dd .list-inline .current {
+  color: #ed1c24;
+  border: 2px solid #ed1c24;
+}
+
+.container .product-buy .gift-options dl dd .list-inline li {
+  border: 1px #e9e9e9 solid;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  color: #b0b0b0;
+}
+
+.container .product-buy .gift-options dl dd .list-inline li:hover {
+  color: #000;
+}
+
+.container .product-buy .gift-options dl dd .list-inline li span {
+  display: block;
+  padding: 6px 20px;
+  border: 1px #fff solid;
+  cursor: pointer;
+}
+
+.container .product-buy .gift-options dl dd .list-inline li:nth-child(2) {
+  margin-left: 10px;
+}
+
+.container .product-buy .product-cert {
+  height: 125px;
+  margin-top: 40px;
+}
+
+.container .product-buy .product-cert .product-quantity {
+  display: table;
+  border-collapse: separate;
+  vertical-align: top;
+  height: 25px;
+  margin-bottom: 30px;
+}
+
+.container .product-buy .product-cert .product-quantity dl {
+  display: table-cell;
+  margin-bottom: 0;
+}
+
+.container .product-buy .product-cert .product-quantity dl dt {
+  width: 45px;
+  text-align: left;
+  line-height: 15px;
+  float: left;
+  clear: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.container .product-buy .product-cert .product-quantity .spinner-input {
+  height: 26px;
+  width: 70px;
+  border: 1px solid #ddd;
+  margin-top: -4px;
+  outline: 0;
+  text-align: center;
+}
+
+.container .product-buy .product-cert .product-quantity .input-group-btn {
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.container .product-buy .product-cert .product-quantity .input-group-btn button {
+  margin-right: -1px;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  line-height: 4px;
+  margin-top: -4px;
+  border-color: #ddd;
+  font-size: 24px;
+  padding-bottom: 3px;
+  outline: 0;
+  color: #333;
+  background-color: #FFF;
+  border: 1px solid #dddbdb;
+  cursor: pointer;
+}
+
+.container .product-buy .product-cert .product-quantity .input-group-btn button:hover {
+  background-color: #ccc;
+}
+
+.container .product-buy .product-cert .row {
+  padding: 15px 0;
+  margin: 0;
+}
+
+.container .product-buy .product-cert .row a {
+  width: 190px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  font-size: 16px;
+  background: #ed1c24;
+  border-color: #ed1c24;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  color: #FFF;
+  touch-action: manipulation;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.container .product-buy .product-cert .row a:first-child {
+  margin-right: 20px;
+}
+
+.container .product-buy .product-cert .row a:last-child {
+  border-color: #f79307;
+  background: #ff9f00;
+}
+
+
